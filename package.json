@@ -1,6 +1,6 @@
 {
-  "name": "hapi-utils",
-  "version": "0.0.2",
+  "name": "hapi-loader",
+  "version": "0.0.3",
   "description": "hapi loader helpers",
   "main": "lib/index.js",
   "repository": {
