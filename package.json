@@ -1,8 +1,12 @@
 {
   "name": "hapi-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hapi loader helpers",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simon-p-r/hapi-loader"
+  },
   "scripts": {
     "test": "lab -t 100 -v -a code -L"
   },
