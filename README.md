@@ -1,9 +1,9 @@
 # hapi-utils
 
-[![Build Status](https://travis-ci.org/simon-p-r/hapi-utils.svg?branch=master)](https://travis-ci.org/simon-p-r/hapi-utils)
-[![Current Version](https://img.shields.io/npm/v/hapi-utils.svg)](https://www.npmjs.org/package/hapi-utils)
-![Dependencies](http://img.shields.io/david/simon-p-r/hapi-utils.svg)
-![devDependencies](http://img.shields.io/david/dev/simon-p-r/hapi-utils.svg)
+[![Build Status](https://travis-ci.org/simon-p-r/hapi-loader.svg?branch=master)](https://travis-ci.org/simon-p-r/hapi-loader)
+[![Current Version](https://img.shields.io/npm/v/hapi-loader.svg)](https://www.npmjs.org/package/hapi-loader)
+![Dependencies](http://img.shields.io/david/simon-p-r/hapi-loader.svg)
+![devDependencies](http://img.shields.io/david/dev/simon-p-r/hapi-loader.svg)
 
 
 Some utils for hapi
