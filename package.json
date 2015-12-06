@@ -1,6 +1,6 @@
 {
   "name": "hapi-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "hapi loader helpers",
   "main": "lib/index.js",
   "repository": {
@@ -10,16 +10,19 @@
   "scripts": {
     "test": "lab -t 100 -v -a code -L"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "keywords": [
     "hapi"
   ],
   "author": "simon-p-r <simon.ricaldone@circabs.com> (https://github.com/simon-p-r)",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "code": "1.x.x",
-    "lab": "5.x.x"
+    "code": "^2.0.1",
+    "lab": "^8.0.0"
   },
   "dependencies": {
-    "require-plus": "1.x.x"
+    "require-plus": "^2.0.0"
   }
 }

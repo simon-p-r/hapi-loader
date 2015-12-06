@@ -1,7 +1,7 @@
 'use strict';
 
 
-var Admin = require( '../handlers/admin.js' );
+const Admin = require( '../handlers/admin.js' );
 
 
 

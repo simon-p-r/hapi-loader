@@ -1,28 +1,28 @@
-// Load modules
+'use strict';
 
-var Code = require('code');
-var Lab = require('lab');
-var Utils = require('../lib');
+const Code = require('code');
+const Lab = require('lab');
+const Utils = require('../lib');
 
 // Set-up lab
-var lab = exports.lab = Lab.script();
-var describe = lab.describe;
-var it = lab.it;
-var expect = Code.expect;
+const lab = exports.lab = Lab.script();
+const describe = lab.describe;
+const it = lab.it;
+const expect = Code.expect;
 
 
-describe('Utils', function () {
+describe('Utils', () => {
 
-    it('should create an array of routes for hapi', function (done) {
+    it('should create an array of routes for hapi', (done) => {
 
-        var results = Utils.loadRoutes('./fixtures/routes');
+        const results = Utils.loadRoutes('./fixtures/routes');
         expect(results).to.be.an.array();
         done();
     });
 
-    it('should create an object set of schemas', function (done) {
+    it('should create an object set of schemas', (done) => {
 
-        var results = Utils.loadSchemas('./fixtures/party-schema');
+        const results = Utils.loadSchemas('./fixtures/party-schema');
         expect(results).to.be.an.object();
         expect(results.collections).to.be.an.object();
         expect(results.definitions).to.be.an.object();

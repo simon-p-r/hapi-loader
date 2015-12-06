@@ -1,8 +1,6 @@
-/**
- * Created by Simon on 13/03/2015.
- */
+'use strict';
 
-var DB = require( '../handlers/db.js' );
+const DB = require( '../handlers/db.js' );
 
 
 module.exports = [

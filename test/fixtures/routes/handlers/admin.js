@@ -17,12 +17,12 @@ module.exports = {
 
     getRoutes: function (request, reply) {
 
-        var serverTable = request.server.table();
-        var list = [];
-        serverTable.forEach(function (connection) {
+        const serverTable = request.server.table();
+        const list = [];
+        serverTable.forEach((connection) => {
 
-            var table = connection.table;
-            table.forEach(function (route) {
+            const table = connection.table;
+            table.forEach((route) => {
 
                 list.push(route.method.toUpperCase() + ' ' + route.path );
             });
@@ -40,7 +40,7 @@ module.exports = {
 
     getNodeInfo: function (request, reply) {
 
-        var ni = {
+        const ni = {
 
             pid: process.pid,
             versions: process.versions,
