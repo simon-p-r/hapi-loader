@@ -1,5 +1,7 @@
 # hapi-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/simon-p-r/hapi-loader.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/simon-p-r/hapi-loader.svg?branch=master)](https://travis-ci.org/simon-p-r/hapi-loader)
 [![Current Version](https://img.shields.io/npm/v/hapi-loader.svg)](https://www.npmjs.org/package/hapi-loader)
 
