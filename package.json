@@ -19,8 +19,8 @@
   "author": "simon-p-r <simon.ricaldone@circabs.com> (https://github.com/simon-p-r)",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "code": "^2.0.1",
-    "lab": "^8.0.0"
+    "code": "^4.0.0",
+    "lab": "^13.0.1"
   },
   "dependencies": {
     "require-plus": "^2.0.0"
